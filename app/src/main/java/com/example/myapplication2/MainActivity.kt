@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             val prompt = ePrompt.text.toString()
             val generativeModel = GenerativeModel(
                 modelName = "gemini-pro",
-                apiKey = "AIzaSyAzUWURUi161oBsbJpIvCHAmLQJIfk_PFM"
+                apiKey = ""  //add you api key
             )
 
             runBlocking {
